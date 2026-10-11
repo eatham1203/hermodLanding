@@ -27,6 +27,10 @@ const STEPS = [
     title: 'You see adherence on the dashboard',
     body: 'Each patient shows how many doses were taken. Pause, edit or stop their reminders at any time.',
   },
+  {
+    title: 'Adjust the plan with the full picture',
+    body: "When a patient keeps missing doses, you know before their next visit. Follow up sooner, or review their treatment plan knowing how it's actually going.",
+  },
 ]
 
 /**
@@ -55,7 +59,7 @@ export function HowItWorks() {
 
   return (
     <section id="how" aria-labelledby="how-title" className="border-t border-border bg-surface">
-      <div ref={trackRef} className="lg:h-[300svh]">
+      <div ref={trackRef} className="lg:h-[380svh]">
         <div className="py-24 sm:py-32 lg:sticky lg:top-0 lg:flex lg:h-svh lg:items-center lg:py-0">
           <Container className="grid gap-y-12 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)] lg:grid-rows-[auto_auto] lg:gap-x-16 lg:gap-y-8">
             <h2

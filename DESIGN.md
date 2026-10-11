@@ -14,7 +14,7 @@ Monochrome, Notion-like, calm. Reads like a printed clinic handout.
 - Hero halftone shader: warm-gray inks (`HALFTONE_PALETTE` in `components/ui/halftone-cmyk-newspaper.tsx`) behind a radial paper wash. Drifts slowly (timeScale 0.35); still under reduced motion.
 - Product video sits in the Magic UI Safari frame (`components/ui/safari.tsx`), with macOS traffic-light colours as the only colour on the page.
 - Smooth scrolling: Lenis (`ReactLenis root` in App.tsx), off under reduced motion.
-- How it works (lg+): section pins for a 300svh scroll track; Safari video left (plays only in view), steps crossfade on the right. Opacity, drift and bar fill are written from scroll position each frame (no timed transitions). Below lg it stacks, all steps visible.
+- How it works (lg+): section pins for a 380svh scroll track (four steps); Safari video left (plays only in view), steps crossfade on the right. Opacity, drift and bar fill are written from scroll position each frame (no timed transitions). Below lg it stacks, all steps visible.
 - Closing: the serif line sits above the Skiper UI Crowd Canvas (Open Peeps sprite in public/illustrations), lazy-loaded near the viewport, paused off screen and under reduced motion.
 - Any demo material must be labelled "fictional patient".
 

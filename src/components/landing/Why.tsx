@@ -11,7 +11,7 @@ const PROBLEMS = [
   },
   {
     question: 'Do your patients struggle with yet another health app?',
-    detail: 'Hermod lives in Telegram, which they already use. There is no new app to download or log in to.',
+    detail: 'Hermod lives in Telegram (soon to other platforms), which they already use. There is no new app to download or log in to.',
   },
 ]
 
